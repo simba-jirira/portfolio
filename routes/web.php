@@ -17,4 +17,6 @@ use Illuminate\Support\Facades\Route;
 Route::controller(PortfolioController::class)->group(function () {
     Route::get('/', 'index')->name('home');
     Route::get('/about', 'about')->name('about');
+    Route::get('/services', 'service')->name('service');
+    Route::get('/contact', 'contact')->name('contact');
 });

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\PortfolioController;
 use Illuminate\Support\Facades\Route;
 
@@ -19,4 +20,8 @@ Route::controller(PortfolioController::class)->group(function () {
     Route::get('/about', 'about')->name('about');
     Route::get('/services', 'service')->name('service');
     Route::get('/contact', 'contact')->name('contact');
+});
+
+Route::controller(ContactController::class)->group(function () {
+    Route::post('/contactsend','contactUs')->name('contact.send');
 });

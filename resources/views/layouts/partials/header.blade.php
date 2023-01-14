@@ -24,10 +24,10 @@
                         <a href="{{route('home')}}"><img src="{{ asset('images/logo.png') }}" alt=""></a>
                     </div>
                     <ul class="nav navbar-nav navbar">
-                        <li><a {{ request()->routeIs('home') ? ' class=tap' : '' }} href="{{route('home')}}"><span>Home</span></a></li>
-                        <li><a {{ request()->routeIs('about') ? ' class=tap' : '' }} href="{{route('about')}}"><span>About</span></a></li>
-                        <li><a {{ request()->routeIs('service') ? ' class=tap' : '' }} href="{{route('service')}}"><span>Services</span></a></li>
-                        <li><a {{ request()->routeIs('contact') ? ' class=tap' : '' }} href="{{route('contact')}}"><span>Contact</span></a></li>
+                        <li {{ request()->routeIs('home') ? ' class=tap active' : '' }}><a  href="{{route('home')}}"><span>Home</span></a></li>
+                        <li {{ request()->routeIs('about') ? ' class=tap' : '' }}><a  href="{{route('about')}}"><span>About</span></a></li>
+                        <li {{ request()->routeIs('service') ? ' class=tap' : '' }}><a  href="{{route('service')}}"><span>Services</span></a></li>
+                        <li {{ request()->routeIs('contact') ? ' class=tap' : '' }}><a  href="{{route('contact')}}"><span>Contact</span></a></li>
                     </ul>
 
                 </div>

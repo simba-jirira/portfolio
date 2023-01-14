@@ -10,7 +10,7 @@
                     <div class="row align-items-center">
                         <div class="col-md-7">
                             <div class="banner-content">
-                                <h6 data-wow-duration="1s" data-wow-delay="0.5s" class="wow fadeInUp sub-title">WE CREATE IDEAS</h6>
+                                <h6 data-wow-duration="1s" data-wow-delay="0.5s" class="wow fadeInUp sub-title">Hey, I'm Simba.</h6>
                                 <h1 data-wow-duration="1.2s" data-wow-delay="1s" class="wow fadeInUp">HOW WE CAN HELP YOUR <span class="text-primary">BUSINESS</span></h1>
                                 <p  data-wow-duration="1.4s" data-wow-delay="1.5s" class="wow fadeInUp m-b30">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus.</p>
                                 <a  data-wow-duration="1.6s" data-wow-delay="2s" class="wow fadeInUp btn btn-primary" href="about-us-2.html" >Learn More<i class="fa fa-angle-right m-l10"></i></a>

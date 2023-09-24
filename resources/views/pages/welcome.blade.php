@@ -10,11 +10,6 @@
                     <div class="row align-items-center">
                         <div class="col-md-7">
                             <div class="banner-content">
-<<<<<<< HEAD
-                                <h6 data-wow-duration="1s" data-wow-delay="0.5s" class="wow fadeInUp sub-title">Hey, I'm Simba.</h6>
-                                <h1 data-wow-duration="1.2s" data-wow-delay="1s" class="wow fadeInUp">HOW WE CAN HELP YOUR <span class="text-primary">BUSINESS</span></h1>
-                                <p  data-wow-duration="1.4s" data-wow-delay="1.5s" class="wow fadeInUp m-b30">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus.</p>
-=======
                                 <h6 data-wow-duration="1s" data-wow-delay="0.5s" class="wow fadeInUp sub-title">CREATING DIGITAL MASTERPIECES</h6>
                                 <h1 data-wow-duration="1.2s" data-wow-delay="1s" class="wow fadeInUp">HOW CAN I HELP YOUR <span class="text-primary">BUSINESS</span></h1>
                                 <p  data-wow-duration="1.4s" data-wow-delay="1.5s" class="wow fadeInUp m-b30">
@@ -22,7 +17,6 @@
                                     I specialize in crafting websites that resonate with
                                     your brand's voice and cater to your specific audience.
                                 </p>
->>>>>>> 1c5ce4c (working on my portfolio home page)
                                 <a  data-wow-duration="1.6s" data-wow-delay="2s" class="wow fadeInUp btn btn-primary" href="about-us-2.html" >Learn More<i class="fa fa-angle-right m-l10"></i></a>
                             </div>
                         </div>
@@ -38,18 +32,7 @@
 
         <section style="background-image: url({{ asset('images/background/bg1.png') }}); background-size:100%;">
             <!-- Clients Logo -->
-            <div class="content-inner-2">
-                <div class="container">
-                    <div class="clients-carousel owl-none owl-carousel">
-                        <div class="item">
-                            <div class="clients-logo">
-                                <img class="logo-main" src="{{ asset('images/logo/logo-purple1.png') }}" alt="">
-                                <img class="logo-hover" src="{{ asset('images/logo/logo-light1.png') }}" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
             <!-- Service -->
             <div class="content-inner-2">
                 <div class="container">
@@ -144,7 +127,7 @@
                     <div class="col-xl-6 col-lg-7 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.2s">
                         <div class="section-head style-1">
                             <h6 class="sub-title">FETURES</h6>
-                            <h2 class="title">OUR WORK FLOW</h2>
+                            <h2 class="title">MY WORK FLOW</h2>
                         </div>
                         <div class="section-wraper-one">
                             <div class="icon-bx-wraper style-2 left m-b30">
@@ -155,7 +138,11 @@
                                 </div>
                                 <div class="icon-content">
                                     <h4 class="dlab-title">Idea & Analysis Gathering</h4>
-                                    <p>Mauris eleifend ipsum dolor, sit amet elementum tortor mattis interdum. Praesent ut lobortis purus.</p>
+                                    <p>
+                                        Before diving into design, it's crucial to understand the project's essence.
+                                        I invest time in understanding your business, target audience, and objectives.
+                                        This foundational knowledge ensures the developed solution aligns with your goals.
+                                    </p>
                                 </div>
                             </div>
                             <div class="icon-bx-wraper style-2 left m-b30">
@@ -166,7 +153,12 @@
                                 </div>
                                 <div class="icon-content">
                                     <h4 class="dlab-title">Designing & Developing</h4>
-                                    <p>Mauris eleifend ipsum dolor, sit amet elementum tortor mattis interdum. Praesent ut lobortis purus.</p>
+                                    <p>
+                                        With a clear blueprint in hand, the creation phase begins.
+                                        Leveraging modern design principles and coding practices,
+                                        I craft websites that are both aesthetically pleasing and functionally robust,
+                                        ensuring your users enjoy a seamless experience.
+                                    </p>
                                 </div>
                             </div>
                             <div class="icon-bx-wraper style-2 left m-b30">
@@ -177,7 +169,11 @@
                                 </div>
                                 <div class="icon-content">
                                     <h4 class="dlab-title">Testing & Lunching</h4>
-                                    <p>Mauris eleifend ipsum dolor, sit amet elementum tortor mattis interdum. Praesent ut lobortis purus.</p>
+                                    <p>
+                                        No project goes live without rigorous testing. I meticulously review each element
+                                        for functionality and compatibility across devices. Once perfected,
+                                        your website is launched, ready to engage and impress.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -201,7 +197,8 @@
         <livewire:testimonials.testimonies/>
 
         <!-- Blog -->
-        <livewire:blog.list-blogs/>
+        <!-- <livewire:blog.list-blogs/>   -->
+
 
         <!-- Get A Quote -->
         <livewire:quote.get-quote/>

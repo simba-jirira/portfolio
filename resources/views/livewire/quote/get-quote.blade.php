@@ -3,7 +3,7 @@
         <div class="row align-items-center">
             <div class="col-xl-6 col-lg-7 m-b30 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.2s">
                 <div class="section-head style-1">
-                    <h6 class="sub-title">CONTACT US</h6>
+                    <h6 class="sub-title">CONTACT ME</h6>
                     <h2 class="title">GET IN TOUCH</h2>
                 </div>
                 <form class="dlab-form dzForm" method="POST" action="script/contact_smtp.php">

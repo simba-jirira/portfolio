@@ -9,8 +9,13 @@
             <div class="col-lg-8 col-md-7 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.4s">
                 <div class="section-head style-1 text-white">
                     <h6 class="sub-title text-white">NEWSLETTER</h6>
-                    <h2 class="title m-b15">SUBSCRIBE TO OUR NEWSLETTER</h2>
-                    <p>Curabitur eleifend nibh sit amet ex posuere, vel malesuada turpis pretium. Quisque et tincidunt risus, a tempor massa. Cras tempor egestas libero, eu laoreet enim pharetra non.</p>
+                    <h2 class="title m-b15">JOIN MY LIST</h2>
+                    <p>
+                        Stay at the forefront of web development with insights, tips, and updates from my freelance journey.
+                        By subscribing, you'll not only receive fresh perspectives and code snippets but also exclusive
+                        first-looks at my open-source projects. Dive deep into collaborative coding, gain early access to tools,
+                        and be a part of a community pushing boundaries. Let's innovate together.
+                    </p>
                 </div>
                 <div class="dlab-subscribe style-2 max-w500">
                     <form class="dzSubscribe" action="script/mailchamp.php" method="post">

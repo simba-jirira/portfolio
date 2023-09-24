@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <div class="section-head style-1 text-center mb-3">
             <h6 class="sub-title">PROJECTS</h6>
-            <h2 class="title">OUR PORTFOLIO</h2>
+            <h2 class="title">MY PORTFOLIO</h2>
         </div>
         <div class="site-filters style-1 clearfix center mb-5">
             <ul class="filters" data-bs-toggle="buttons">

@@ -42,13 +42,13 @@
             </div>
             <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.8s">
                 <div class="icon-bx-wraper style-4 text-center m-b30">
-                    <div class="icon-bx-sm radius bg-red m-b20">
+                    <div class="icon-bx-sm radius bg-blue m-b20">
                         <a href="javascript:void(0);" class="icon-cell">
-                            <i class="flaticon-confetti"></i>
+                            <i class="flaticon-startup"></i>
                         </a>
                     </div>
                     <div class="icon-content">
-                        <span class="title">Years Completed</span>
+                        <span class="title">Open-Source Projects</span>
                         <h2 class="counter-title m-b0 text-primary"><span class="counter">50</span></h2>
                     </div>
                 </div>

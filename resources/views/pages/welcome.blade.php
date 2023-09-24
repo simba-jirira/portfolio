@@ -10,9 +10,19 @@
                     <div class="row align-items-center">
                         <div class="col-md-7">
                             <div class="banner-content">
+<<<<<<< HEAD
                                 <h6 data-wow-duration="1s" data-wow-delay="0.5s" class="wow fadeInUp sub-title">Hey, I'm Simba.</h6>
                                 <h1 data-wow-duration="1.2s" data-wow-delay="1s" class="wow fadeInUp">HOW WE CAN HELP YOUR <span class="text-primary">BUSINESS</span></h1>
                                 <p  data-wow-duration="1.4s" data-wow-delay="1.5s" class="wow fadeInUp m-b30">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus.</p>
+=======
+                                <h6 data-wow-duration="1s" data-wow-delay="0.5s" class="wow fadeInUp sub-title">CREATING DIGITAL MASTERPIECES</h6>
+                                <h1 data-wow-duration="1.2s" data-wow-delay="1s" class="wow fadeInUp">HOW CAN I HELP YOUR <span class="text-primary">BUSINESS</span></h1>
+                                <p  data-wow-duration="1.4s" data-wow-delay="1.5s" class="wow fadeInUp m-b30">
+                                    Every venture is unique, just like its digital footprint should be.
+                                    I specialize in crafting websites that resonate with
+                                    your brand's voice and cater to your specific audience.
+                                </p>
+>>>>>>> 1c5ce4c (working on my portfolio home page)
                                 <a  data-wow-duration="1.6s" data-wow-delay="2s" class="wow fadeInUp btn btn-primary" href="about-us-2.html" >Learn More<i class="fa fa-angle-right m-l10"></i></a>
                             </div>
                         </div>
@@ -57,7 +67,9 @@
                                 </div>
                                 <div class="icon-content">
                                     <h4 class="dlab-title">Strategy & Research</h4>
-                                    <p>Fusce sit amet dui vitae urna tristique imperdiet. Donec eget sapien euismod, faucibus nibh non, consequat elit. </p>
+                                    <p>
+                                        Driven by objectives, refined through testing, and optimized with analytics.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -70,7 +82,9 @@
                                 </div>
                                 <div class="icon-content">
                                     <h4 class="dlab-title">Web Development</h4>
-                                    <p>Fusce sit amet dui vitae urna tristique imperdiet. Donec eget sapien euismod, faucibus nibh non, consequat elit. </p>
+                                    <p>
+                                        Fusing design with function, driven by strategy & research to align user needs with brand vision.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -83,7 +97,9 @@
                                 </div>
                                 <div class="icon-content">
                                     <h4 class="dlab-title">Web Solution</h4>
-                                    <p>Fusce sit amet dui vitae urna tristique imperdiet. Donec eget sapien euismod, faucibus nibh non, consequat elit. </p>
+                                    <p>
+                                        Through Strategy & Research, my development crafts solutions Bridging user needs with brand vision.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -102,13 +118,19 @@
                     </div>
                     <div class="col-md-6 m-b30 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.4s">
                         <div class="section-head style-1 mb-4">
-                            <h6 class="sub-title">ABOUT US</h6>
-                            <h2 class="title">HOW  WE CAN HELP YOUR BUSINESS GOAL</h2>
+                            <h6 class="sub-title">ABOUT SIMBA</h6>
+                            <h2 class="title">HOW I CAN HELP YOUR BUSINESS GOAL</h2>
                         </div>
-                        <p class="m-b20">Integer pretium molestie nisl, non blandit lectus suscipit in. Vivamus tellus diam, iaculis eget nulla sit amet, tincidunt consectetur sem. Suspendisse laoreet, quam sed faucibus feugiat, tortor velit suscipit orci, sed consectetur ante eros id urna. Mauris luctus nulla ut pharetra tempor.</p>
-                        <img src="{{ asset('images/sign.png') }}" alt="">
-                        <h4 class="m-b30">CEO Jhone Doe</h4>
-                        <a href="about-us-2.html" class="btn btn-primary">Learn More<i class="fa fa-angle-right m-l10 scale2"></i></a>
+                        <p class="m-b20">
+                            In the fast-paced world of digital business, having a distinctive online presence is crucial.
+                            As a freelance web developer, I, Simba, am dedicated to realizing your brand's full potential on the web.
+                            Leveraging the latest technologies and a deep understanding of user behavior, I craft websites that are not
+                            only visually compelling but also functionally seamless. By understanding your objectives, I transform your
+                            vision into a digital platform that drives engagement, enhances user experience, and supports your business growth.
+                            Partner with me to navigate the digital landscape efficiently and achieve your goals.
+                        </p>
+
+                        <a href="{{route('about')}}" class="btn btn-primary">Learn More<i class="fa fa-angle-right m-l10 scale2"></i></a>
                     </div>
                 </div>
             </div>

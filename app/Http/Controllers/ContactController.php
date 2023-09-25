@@ -12,11 +12,10 @@ class ContactController extends Controller
     {
         //Storing Contact Data into the database
         Contact::create($request->all());
-        ddd('hello');
-        //        return back()
-//            ->with('success',
-//                'We have received your message and
-//                 would like to thank you for writing
-//                  to us.');
+        return back()
+            ->with('success',
+                'We have received your message and
+                 would like to thank you for writing
+                  to us.');
     }
 }

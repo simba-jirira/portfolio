@@ -1,10 +1,10 @@
 /*
-    Name: Samar 
+    Name: Samar
     Author: DexignZone
     Portfolio : https://themeforest.net/user/dexignzone/portfolio
-   
 
-    Table of Content: 
+
+    Table of Content:
 
     1. Abstract
     2. Bootstrap CSS
@@ -13,8 +13,8 @@
     5. Component
     6. Dashboard
     7. Pages
-    
-    
+
+
 */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
@@ -8630,7 +8630,6 @@ strong,
   padding: 65px 0px 45px;
   position: relative;
   background: #fffbf7;
-  background-image: url("./../images/hero/5.png");
   background-size: cover;
   background-position: center; }
   .page-title p {
@@ -18694,7 +18693,6 @@ pre {
   height: 480px; }
   .dlab-bnr-inr.style-1:after {
     content: "";
-    background-image: url(../images/banner/bnr4.png);
     position: absolute;
     bottom: 0;
     left: 0;
@@ -18732,7 +18730,6 @@ pre {
   height: 600px; }
   .dlab-bnr-inr.style-2:after {
     content: "";
-    background-image: url(../images/banner/bnr5.png);
     position: absolute;
     bottom: 0;
     left: 0;

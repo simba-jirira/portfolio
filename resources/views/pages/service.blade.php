@@ -30,8 +30,12 @@
                                 </a>
                             </div>
                             <div class="icon-content">
-                                <h4 class="dlab-title">Strategy & Research</h4>
-                                <p>Fusce sit amet dui vitae urna tristique imperdiet. Donec eget sapien euismod, faucibus nibh non, consequat elit.</p>
+                                <h4 class="dlab-title">Responsive Web Design</h4>
+                                <p>
+                                    Create websites that adapt seamlessly to various screen sizes,
+                                    ensuring a consistent and enjoyable user experience across devices like
+                                    desktops, tablets, and smartphones.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -43,8 +47,11 @@
                                 </a>
                             </div>
                             <div class="icon-content">
-                                <h4 class="dlab-title">Web Development</h4>
-                                <p>Fusce sit amet dui vitae urna tristique imperdiet. Donec eget sapien euismod, faucibus nibh non, consequat elit.</p>
+                                <h4 class="dlab-title">E-commerce Solutions</h4>
+                                <p>
+                                    Develop robust online stores complete with secure payment gateways,
+                                    inventory management, and an intuitive user interface to enhance the shopping experience.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -56,8 +63,11 @@
                                 </a>
                             </div>
                             <div class="icon-content">
-                                <h4 class="dlab-title">Web Solution</h4>
-                                <p>Fusce sit amet dui vitae urna tristique imperdiet. Donec eget sapien euismod, faucibus nibh non, consequat elit.</p>
+                                <h4 class="dlab-title">Content Management</h4>
+                                <p>
+                                    Implement user-friendly Content Management Systems (CMS) like WordPress or Joomla,
+                                    allowing you to easily update and manage your website's content without technical expertise.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -69,8 +79,27 @@
                                 </a>
                             </div>
                             <div class="icon-content">
-                                <h4 class="dlab-title">Company Branding</h4>
-                                <p>Fusce sit amet dui vitae urna tristique imperdiet. Donec eget sapien euismod, faucibus nibh non, consequat elit.</p>
+                                <h4 class="dlab-title">Custom Applications</h4>
+                                <p>
+                                    Build specialized web applications tailored to meet your specific business needs,
+                                    be it a custom CRM system, a project management tool, or a unique social networking site.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.4s">
+                        <div class="icon-bx-wraper style-1 box-hover text-center m-b30">
+                            <div class="icon-bx-md radius bg-skyblue shadow-skyblue">
+                                <a href="javascript:void(0);" class="icon-cell">
+                                    <i class="flaticon-dollar"></i>
+                                </a>
+                            </div>
+                            <div class="icon-content">
+                                <h4 class="dlab-title">API Development & Integration</h4>
+                                <p>
+                                    Create and integrate APIs to enable seamless communication between different software components,
+                                    whether it's linking your website to a third-party service or connecting multiple platforms within your ecosystem.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -82,8 +111,28 @@
                                 </a>
                             </div>
                             <div class="icon-content">
-                                <h4 class="dlab-title">SEO & Marketing</h4>
-                                <p>Fusce sit amet dui vitae urna tristique imperdiet. Donec eget sapien euismod, faucibus nibh non, consequat elit.</p>
+                                <h4 class="dlab-title">SEO Optimization</h4>
+                                <p>
+                                    Implement on-page and off-page SEO strategies to improve your website's
+                                    visibility on search engines, thereby increasing organic traffic and conversions.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.5s">
+                        <div class="icon-bx-wraper style-1 box-hover text-center m-b30">
+                            <div class="icon-bx-md radius bg-orange shadow-orange">
+                                <a href="javascript:void(0);" class="icon-cell">
+                                    <i class="flaticon-line-graph"></i>
+                                </a>
+                            </div>
+                            <div class="icon-content">
+                                <h4 class="dlab-title">Performance Optimization</h4>
+                                <p>
+                                    Employ various techniques such as code splitting, lazy loading,
+                                    and caching to ensure your website loads quickly, thereby improving user
+                                    engagement and SEO rankings.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -95,8 +144,27 @@
                                 </a>
                             </div>
                             <div class="icon-content">
-                                <h4 class="dlab-title">24X7 Support</h4>
-                                <p>Fusce sit amet dui vitae urna tristique imperdiet. Donec eget sapien euismod, faucibus nibh non, consequat elit.</p>
+                                <h4 class="dlab-title">Website Maintenance</h4>
+                                <p>
+                                    Offer ongoing support that includes regular updates, bug fixes, and
+                                    performance audits to ensure your website remains functional and up-to-date.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.4s">
+                        <div class="icon-bx-wraper style-1 box-hover text-center m-b30">
+                            <div class="icon-bx-md radius bg-skyblue shadow-skyblue">
+                                <a href="javascript:void(0);" class="icon-cell">
+                                    <i class="flaticon-dollar"></i>
+                                </a>
+                            </div>
+                            <div class="icon-content">
+                                <h4 class="dlab-title">UI/UX Design</h4>
+                                <p>
+                                    Design user interfaces that are not only visually appealing but also intuitive,
+                                    ensuring that users can easily navigate and interact with your website.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -108,58 +176,7 @@
         <livewire:newsletter.add-news-letter/>
 
         <!-- Fetures -->
-        <section class="content-inner">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-xl-6 col-lg-7 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.2s">
-                        <div class="section-head style-1">
-                            <h6 class="sub-title">FETURES</h6>
-                            <h2 class="title">OUR WORK FLOW</h2>
-                        </div>
-                        <div class="section-wraper-one">
-                            <div class="icon-bx-wraper style-2 left m-b30">
-                                <div class="icon-bx-md radius bg-white text-red">
-                                    <a href="javascript:void(0);" class="icon-cell">
-                                        <i class="flaticon-idea"></i>
-                                    </a>
-                                </div>
-                                <div class="icon-content">
-                                    <h4 class="dlab-title">Idea & Analysis Gathering</h4>
-                                    <p>Mauris eleifend ipsum dolor, sit amet elementum tortor mattis interdum. Praesent ut lobortis purus.</p>
-                                </div>
-                            </div>
-                            <div class="icon-bx-wraper style-2 left m-b30">
-                                <div class="icon-bx-md radius bg-white text-yellow">
-                                    <a href="javascript:void(0);" class="icon-cell">
-                                        <i class="flaticon-line-graph"></i>
-                                    </a>
-                                </div>
-                                <div class="icon-content">
-                                    <h4 class="dlab-title">Designing & Developing</h4>
-                                    <p>Mauris eleifend ipsum dolor, sit amet elementum tortor mattis interdum. Praesent ut lobortis purus.</p>
-                                </div>
-                            </div>
-                            <div class="icon-bx-wraper style-2 left m-b30">
-                                <div class="icon-bx-md radius bg-white text-green">
-                                    <a href="javascript:void(0);" class="icon-cell">
-                                        <i class="flaticon-rocket"></i>
-                                    </a>
-                                </div>
-                                <div class="icon-content">
-                                    <h4 class="dlab-title">Testing & Lunching</h4>
-                                    <p>Mauris eleifend ipsum dolor, sit amet elementum tortor mattis interdum. Praesent ut lobortis purus.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-5 m-b30 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.4s">
-                        <div class="dlab-media cf-r-img">
-                            <img src="images/about/pic1.png" class="move-2" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        @include('pages.features.feature')
         <!-- Testimonials -->
         <livewire:testimonials.testimonies/>
 

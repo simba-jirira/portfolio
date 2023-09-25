@@ -16,7 +16,7 @@
                                 </a>
                             </div>
                             <div class="icon-content">
-                                <p><strong>+44 07708429733</strong><br/>info@simbajirira.com</p>
+                                <p><strong>+44 07708429733</strong><br/>hello@simbajirira.com</p>
                             </div>
                         </div>
                     </div>

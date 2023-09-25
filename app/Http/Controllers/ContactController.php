@@ -12,6 +12,8 @@ class ContactController extends Controller
     {
         //Storing Contact Data into the database
         Contact::create($request->all());
+
+        //returnback with a success message
         return back()
             ->with('success',
                 'We have received your message and

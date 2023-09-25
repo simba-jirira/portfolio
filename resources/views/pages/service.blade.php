@@ -4,7 +4,7 @@
         <div class="dlab-bnr-inr overlay-primary-dark" style="background-image: url({{asset('images/banner/bnr1.jpg')}});">
             <div class="container">
                 <div class="dlab-bnr-inr-entry">
-                    <h1>SERVICES</h1>
+                    <h1>SERVICES I OFFER</h1>
                     <!-- Breadcrumb Row -->
                     <nav aria-label="breadcrumb" class="breadcrumb-row">
                         <ul class="breadcrumb">

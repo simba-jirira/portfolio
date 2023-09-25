@@ -1,27 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-    <!-- Meta -->
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="keywords" content="web solutions,web development services,website services,build a website,web agency,freelance website designer,web design services,good website design,web design, ecommerce website,"/>
-    <meta name="author" content="Simba Jirira"/>
-    <meta name="robots" content=""/>
-    <meta name="description" content="Simba Jirira -  Freelance Website Designer / Developer - Branding"/>
-    <meta property="og:title" content="Simba Jirira - Freelance Website Designer / Developer - Branding"/>
-    <meta property="og:description" content="Simba Jirira - I am a freelance website developer / designer who specialises in creating website for startups to medium sized businesses, and i also do branding"/>
-    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta Description -->
+    <meta name="description" content="Explore the portfolio of Simba Jirira, a skilled freelance web developer with expertise in modern web technologies and a passion for creating responsive and user-friendly websites.">
+    <!-- Meta Keywords -->
+    <meta name="keywords" content="Simba Jirira, freelance web developer, web development portfolio, freelance developer, web design, responsive web development, front-end developer, back-end developer, full-stack developer">
 
+    <!-- Content Language -->
+    <meta name="content-language" content="en">
+    <!-- Revisit Policy (tells search engines when to come back) -->
+    <meta name="revisit-after" content="7 days">
+    <!-- Rating (general content rating) -->
+    <meta name="rating" content="general">
+    <!-- Distribution (intended audience) -->
+    <meta name="distribution" content="global">
+    <!-- Cache Control (guide for browsers and search engines for caching your content) -->
+    <meta http-equiv="cache-control" content="public">
+    <!-- Expires (set an expiration date for the content) -->
+    <meta http-equiv="expires" content="Mon, 01 Jan 2025 00:00:00 GMT">
     <!-- Mobile Specific -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Title -->
     <title>{{ $title ?? 'Simba Jirira - Freelance Website Designer / Developer' }}</title>
-
+    <!-- Canonical Tag (to avoid duplicate content issues) -->
+    <link rel="canonical" href="https://www.simbajirira.com">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" href="{{ asset('images/favicon.png') }}">
-
     <!-- Stylesheet -->
     <link href="{{ asset('vendor/bootstrap-select/bootstrap-select.min.css') }}" rel="stylesheet">
     <link href="{{ asset('vendor/owl-carousel/owl.carousel.css') }}" rel="stylesheet">

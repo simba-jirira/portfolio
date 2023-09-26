@@ -15,6 +15,7 @@ class ContactController extends Controller
 
         try {
             Contact::create($request->all());
+            return redirect()->route('contact')->with('success','Message Sent Thank You!.');
         } catch (QueryException|\Exception $e){
             return redirect()->route('contact');
         }

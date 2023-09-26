@@ -21,7 +21,13 @@
                                 <div class="input-group-prepend">
                                     <span class="input-group-text"><i class="la la-user"></i></span>
                                 </div>
-                                <input name="first_name" type="text" required class="form-control" placeholder="First Name">
+                                <input name="first_name" type="text" required class="form-control @error('first_name') is-invalid @enderror"
+                                       placeholder="First Name" value="{{old('first_name')}}">
+                                @error('first_name')
+                                    <div class="invalid-feedback fs-10 ">
+                                        {{$message}}
+                                    </div>
+                                @enderror
                             </div>
                         </div>
                         <div class="col-sm-6">
@@ -48,7 +54,7 @@
                                 <input name="telephone" type="text" required class="form-control" placeholder="Phone No.">
                             </div>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-sm-5">
                             <div class="input-group">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text"><i class="la la-file-alt"></i></span>
@@ -56,16 +62,22 @@
                                 <input name="subject" type="text" class="form-control" required placeholder="Project Title">
                             </div>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-sm-7">
                             <div class="input-group">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text"><i class="la la-list"></i></span>
                                 </div>
                                 <select name="service" class="form-control">
                                     <option selected>Choose Service</option>
-                                    <option value="webdev">Web Development</option>
-                                    <option value="webdes">Web Design</option>
-                                    <option value="3">Strategy & Research</option>
+                                    <option value="Responsive Design">Responsive Web Design</option>
+                                    <option value="E-commerce Solutions">E-commerce Solutions</option>
+                                    <option value="Content Management">Content Management System</option>
+                                    <option value="Custom Applications">Custom Applications</option>
+                                    <option value="API Development & Integration">API Development & Integration</option>
+                                    <option value="SEO Optimization">SEO Optimization</option>
+                                    <option value="Performance Optimization">Performance Optimization</option>
+                                    <option value="Website Maintenance">Website Maintenance</option>
+                                    <option value="UI/UX Design">Web Development</option>
                                 </select>
                             </div>
                         </div>

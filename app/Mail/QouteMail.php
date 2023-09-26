@@ -9,20 +9,18 @@ use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
 
-class contact extends Mailable
+class QouteMail extends Mailable
 {
     use Queueable, SerializesModels;
-
-    public $data = [];
 
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($data)
+    public function __construct()
     {
-        $this->data = $data;
+        //
     }
 
     /**
@@ -33,7 +31,7 @@ class contact extends Mailable
     public function envelope()
     {
         return new Envelope(
-            subject: 'Contact from website',
+            subject: 'Qoute Mail',
         );
     }
 
@@ -45,10 +43,7 @@ class contact extends Mailable
     public function content()
     {
         return new Content(
-            markdown: 'livewire.quote.contact',
-            with: [
-                'url' => $this->orderUrl,
-            ],
+            view: 'view.name',
         );
     }
 

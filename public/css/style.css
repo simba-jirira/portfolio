@@ -19035,5 +19035,7 @@ footer {
   background-color: var(--primary); }
   .site-footer.style-3 .footer-top {
     background: transparent; }
-
+.fs-10{
+    font-size:9px !important;
+}
 /*# sourceMappingURL=style.css.map */

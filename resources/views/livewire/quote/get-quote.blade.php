@@ -100,7 +100,7 @@
                                     <option value="SEO Optimization">SEO Optimization</option>
                                     <option value="Performance Optimization">Performance Optimization</option>
                                     <option value="Website Maintenance">Website Maintenance</option>
-                                    <option value="UI/UX Design">Web Development</option>
+                                    <option value="UI/UX Design">UI/UX Design</option>
                                 </select>
                                 @error('service')
                                 <div class="invalid-feedback fs-10 ">

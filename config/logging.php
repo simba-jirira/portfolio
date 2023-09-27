@@ -51,6 +51,11 @@ return [
     */
 
     'channels' => [
+        'human_readable' => [
+            'driver' => 'single',
+            'path' => storage_path('logs/human_readable.log'),
+            'level' => 'error',
+        ],
         'stack' => [
             'driver' => 'stack',
             'channels' => ['single'],

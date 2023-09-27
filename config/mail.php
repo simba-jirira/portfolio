@@ -92,8 +92,8 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'info@simbajirira.com'),
-        'name' => env('MAIL_FROM_NAME', 'Example'),
+        'address' => env('MAIL_FROM_ADDRESS', 'no-reply@simbajirira.com'),
+        'name' => env('MAIL_FROM_NAME', env('APP_NAME')),
     ],
 
     'reply_to' => [

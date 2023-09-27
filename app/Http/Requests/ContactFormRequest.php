@@ -18,16 +18,12 @@ class ContactFormRequest extends FormRequest
     public function rules()
     {
         return [
-            'first_name' => 'required|min:3',
-            'last_name' => 'required|min:3',
-            'email' => 'required|email',
-            'telephone' =>[
-                            'required',
-                            'uk_phone'
-                          ],
-            'subject' => 'required|min:1',
-            'service' => 'required',
-            'message' => 'required|min:150',
+            'first_name' => 'required|min:3|max:125',
+            'last_name' => 'required|min:3|max:125',
+            'email' => 'required|email:rfc,dns,spoof,filter',
+            'telephone' =>['required', new UKPhoneNumber],
+            'subject' => 'required',
+            'message' => 'required|min:150|max:255',
         ];
     }
 }

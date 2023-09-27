@@ -7,11 +7,7 @@
                     <h2 class="title">GET IN TOUCH</h2>
                 </div>
                 <form class="dlab-form dzForm" method="POST" action="{{ route('contact.send') }}">
-                    @if(Session::has('success'))
-                        <div class="alert alert-success">
-                            {{Session::get('success')}}
-                        </div>
-                    @endif
+                    @include('alerts.alert')
                     @csrf
                     <div class="dzFormMsg"></div>
                     <div class="row">

@@ -5,11 +5,12 @@ namespace App\Mail;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
+use Illuminate\Mail\Mailables\Address;
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
 
-class QouteMail extends Mailable
+class ContactMail extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -18,9 +19,9 @@ class QouteMail extends Mailable
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($details)
     {
-        //
+        $this->details = $details;
     }
 
     /**
@@ -31,7 +32,8 @@ class QouteMail extends Mailable
     public function envelope()
     {
         return new Envelope(
-            subject: 'Qoute Mail',
+            from: new Address($this->details['email'], $this->details['fullname']),
+            subject: $this->details['subject'],
         );
     }
 
@@ -43,7 +45,13 @@ class QouteMail extends Mailable
     public function content()
     {
         return new Content(
-            view: 'view.name',
+            view: 'emails.contact',
+            with: [
+                'fullname' => $this->details['fullname'],
+                'telephone' => $this->details['telephone'],
+                'service' => $this->details['service'],
+                'messages' => $this->details['messages']
+            ]
         );
     }
 

@@ -14,7 +14,6 @@
                     @endif
                     @csrf
                     <div class="dzFormMsg"></div>
-
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="input-group">
@@ -35,7 +34,14 @@
                                 <div class="input-group-prepend">
                                     <span class="input-group-text"><i class="la la-user"></i></span>
                                 </div>
-                                <input name="last_name" type="text" class="form-control" required placeholder="Last Name">
+                                <input name="last_name" type="text"
+                                       value="{{old('last_name')}}"
+                                       class="form-control @error('last_name') is-invalid @enderror" required placeholder="Last Name">
+                                @error('last_name')
+                                <div class="invalid-feedback fs-10 ">
+                                    {{$message}}
+                                </div>
+                                @enderror
                             </div>
                         </div>
                         <div class="col-sm-6">
@@ -43,7 +49,14 @@
                                 <div class="input-group-prepend">
                                     <span class="input-group-text"><i class="la la-envelope"></i></span>
                                 </div>
-                                <input name="email" type="text" required class="form-control" placeholder="Email Address">
+                                <input name="email" type="text" required
+                                       value="{{old('email')}}"
+                                       class="form-control @error('email') is-invalid @enderror" placeholder="Email Address">
+                                @error('email')
+                                <div class="invalid-feedback fs-10 ">
+                                    {{$message}}
+                                </div>
+                                @enderror
                             </div>
                         </div>
                         <div class="col-sm-6">
@@ -51,7 +64,14 @@
                                 <div class="input-group-prepend">
                                     <span class="input-group-text"><i class="la la-phone"></i></span>
                                 </div>
-                                <input name="telephone" type="text" required class="form-control" placeholder="Phone No.">
+                                <input name="telephone" type="text" required
+                                       value="{{old('telephone')}}"
+                                       class="form-control @error('telephone') is-invalid @enderror" placeholder="Phone No.">
+                                @error('telephone')
+                                <div class="invalid-feedback fs-10 ">
+                                    {{$message}}
+                                </div>
+                                @enderror
                             </div>
                         </div>
                         <div class="col-sm-5">
@@ -59,7 +79,14 @@
                                 <div class="input-group-prepend">
                                     <span class="input-group-text"><i class="la la-file-alt"></i></span>
                                 </div>
-                                <input name="subject" type="text" class="form-control" required placeholder="Project Title">
+                                <input name="subject" type="text"
+                                       value="{{old('subject')}}"
+                                       class="form-control @error('subject') is-invalid @enderror" required placeholder="Project Title">
+                                @error('subject')
+                                <div class="invalid-feedback fs-10 ">
+                                    {{$message}}
+                                </div>
+                                @enderror
                             </div>
                         </div>
                         <div class="col-sm-7">
@@ -67,7 +94,7 @@
                                 <div class="input-group-prepend">
                                     <span class="input-group-text"><i class="la la-list"></i></span>
                                 </div>
-                                <select name="service" class="form-control">
+                                <select name="service" class="form-control @error('service') is-invalid @enderror" required>
                                     <option selected>Choose Service</option>
                                     <option value="Responsive Design">Responsive Web Design</option>
                                     <option value="E-commerce Solutions">E-commerce Solutions</option>
@@ -79,6 +106,11 @@
                                     <option value="Website Maintenance">Website Maintenance</option>
                                     <option value="UI/UX Design">Web Development</option>
                                 </select>
+                                @error('service')
+                                <div class="invalid-feedback fs-10 ">
+                                    {{$message}}
+                                </div>
+                                @enderror
                             </div>
                         </div>
                         <div class="col-sm-12 m-b20">
@@ -86,7 +118,13 @@
                                 <div class="input-group-prepend">
                                     <span class="input-group-text"><i class="la la-sms"></i></span>
                                 </div>
-                                <textarea name="message" required class="form-control" placeholder="Message"></textarea>
+                                <textarea name="message" required
+                                          class="form-control @error('message') is-invalid @enderror" placeholder="Message"></textarea>
+                                @error('message')
+                                <div class="invalid-feedback fs-10 ">
+                                    {{$message}}
+                                </div>
+                                @enderror
                             </div>
                         </div>
                         <div class="col-sm-12">

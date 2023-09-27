@@ -38,7 +38,7 @@
     <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link class="skin" rel="stylesheet" href="{{ asset('css/skin/skin-2.css') }}">
-    @livewireStyles
+
 
 
 </head>
@@ -56,7 +56,7 @@
     <!-- Footer End -->
     <button class="scroltop icon-up" type="button"><i class="fa fa-arrow-up"></i></button>
 </div>
-@livewireScripts
+
 <!-- JAVASCRIPT FILES ========================================= -->
 <script src="{{ asset('js/jquery.min.js') }}"></script><!-- JQUERY.MIN JS -->
 <script src="{{ asset('vendor/wow/wow.js') }}"></script><!-- WOW JS -->

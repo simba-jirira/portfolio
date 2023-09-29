@@ -123,7 +123,7 @@
         <!-- Features -->
         @include('pages.features.feature')
         <!-- Projects -->
-        <livewire:projects.list-projects/>
+{{--        <livewire:projects.list-projects/>--}}
 
         <!-- Newsletter -->
         <livewire:newsletter.add-news-letter/>

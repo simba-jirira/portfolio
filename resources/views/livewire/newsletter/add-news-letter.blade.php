@@ -18,7 +18,7 @@
                     </p>
                 </div>
                 <div class="dlab-subscribe style-2 max-w500">
-                    <form class="dzSubscribe" action="script/mailchamp.php" method="post">
+                    <form class="dzSubscribe" action="" method="post">
                         <div class="dzSubscribeMsg"></div>
                         <div class="form-group">
                             <div class="input-group">

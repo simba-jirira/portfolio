@@ -10,7 +10,7 @@
                     </div>
                     <div class="icon-content">
                         <span class="title">Satisfied Clients</span>
-                        <h2 class="counter-title m-b0 text-primary"><span class="counter">18</span>Ml</h2>
+                        <h2 class="counter-title m-b0 text-primary"><span class="counter">10</span></h2>
                     </div>
                 </div>
             </div>
@@ -23,7 +23,7 @@
                     </div>
                     <div class="icon-content">
                         <span class="title">Project Completed</span>
-                        <h2 class="counter-title m-b0 text-primary"><span class="counter">20</span>Ml</h2>
+                        <h2 class="counter-title m-b0 text-primary"><span class="counter">15</span></h2>
                     </div>
                 </div>
             </div>
@@ -36,7 +36,7 @@
                     </div>
                     <div class="icon-content">
                         <span class="title">Project Lunched</span>
-                        <h2 class="counter-title m-b0 text-primary"><span class="counter">30</span>Ml</h2>
+                        <h2 class="counter-title m-b0 text-primary"><span class="counter">10</span></h2>
                     </div>
                 </div>
             </div>
@@ -49,7 +49,7 @@
                     </div>
                     <div class="icon-content">
                         <span class="title">Open-Source Projects</span>
-                        <h2 class="counter-title m-b0 text-primary"><span class="counter">50</span></h2>
+                        <h2 class="counter-title m-b0 text-primary"><span class="counter">5</span></h2>
                     </div>
                 </div>
             </div>

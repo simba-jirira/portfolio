@@ -82,7 +82,7 @@
         <!-- Testimonials -->
         <livewire:testimonials.testimonies/>
         <!-- Blog -->
-        <livewire:blog.list-blogs/>
+{{--        <livewire:blog.list-blogs/>--}}
 
         <!-- Get A Quote -->
         <livewire:quote.get-quote/>

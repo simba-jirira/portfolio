@@ -13,13 +13,8 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('projects', function (Blueprint $table) {
-            $table->id();
-            $table->string('name')->index();  // Indexing the name for faster searches
-            $table->text('description');
-            $table->string('url')->nullable();
-            $table->string('image')->nullable();
-            $table->timestamps();
+        Schema::table('projects', function (Blueprint $table) {
+            $table->string('token', 100)->unique()->nullable();
         });
     }
 
@@ -30,6 +25,8 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('projects');
+        Schema::table('projects', function (Blueprint $table) {
+            //
+        });
     }
 };
